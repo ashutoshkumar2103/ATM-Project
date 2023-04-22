@@ -1,7 +1,7 @@
 import java.io.IOException;
 public class ATM extends OptionMenu {
 	public static void main(String[] args) throws IOException {
-		OptionMenu op = new OptionMenu();
-		op.getLogin();
+		OptionMenu om = new OptionMenu();
+		om.getLogin();
 	}
 }
